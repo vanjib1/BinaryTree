@@ -8,6 +8,8 @@ struct Node {
 	T data;
 	Node *left;
 	Node *right;
+
+	//what is this doing?
 	Node(const T& d, Node *lf, Node *rt) :
 		data(d), left(lf), right(rt) {}
 };

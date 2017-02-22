@@ -146,6 +146,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="simpletest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tree.hpp" />
+    <ClInclude Include="tree_extra.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
